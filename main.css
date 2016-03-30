@@ -1,0 +1,130 @@
+body{
+    background-color: #eeeeee;
+}
+h1{
+    text-align: center;
+    font-family: "Baskerville Old Face";
+}
+.contain{
+    width: 960px;
+    height: 450px;
+    margin: 60px auto;
+    position: relative;
+}
+.contain img{
+    padding: 10px 10px 15px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 3px rgba(50,50,50,0.4);
+    -webkit-transition: all 0.5s ease-in;
+    -moz-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+    position: absolute;
+    z-index: 1;
+}
+.contain img:hover{
+    box-shadow: 15px 15px 15px rgba(50,50,50,0.4);
+    -webkit-transform: rotate(0deg) scale(1.20);
+    -moz-transform: rotate(0deg) scale(1.20);
+    transform: rotate(0deg) scale(1.20);
+    z-index: 2;
+}
+.pic1{
+    left: 400px;
+    top: 90px;
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    width: 200px;
+    height: 150px;
+
+}
+.pic2{
+    top: 90px;
+    left: 600px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    width: 200px;
+    height: 150px;
+
+}
+.pic3{
+    bottom: 0;
+    right: 0;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+    width: 200px;
+    height: 150px;
+
+ }
+.pic4{
+
+    bottom:0;
+    left:300px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    width: 200px;
+    height: 150px;
+
+}
+.pic5{
+    bottom: 0;
+    left: 0;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    width: 200px;
+    height: 150px;
+
+ }
+.pic6{
+    top: 90px;
+    left:0;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+    width: 200px;
+    height: 150px;
+
+}
+.pic7{
+    top: 90px;
+    left: 800px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    transform: rotate(20deg);
+    width: 150px;
+    height: 200px;
+ }
+.pic8{
+    bottom: -20px;
+    right: 630px;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    transform: rotate(5deg);
+    width: 180px;
+    height: 180px;
+
+}
+.pic9{
+    top: 290px;
+    left: 520px;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    transform: rotate(15deg);
+    width: 220px;
+    height: 160px;
+
+}
+.pic10{
+    left:220px;
+    top:80px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    width: 150px;
+    height: 200px;
+}
